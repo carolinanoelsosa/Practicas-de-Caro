@@ -396,8 +396,120 @@ your browser will only display the first word from the title.
         <P style="background-color: rgb(60, 60, 60);">this is rgb(60, 60, 60)</P>
         <p style="background-color: rgb(140, 140, 140);"> this is rgb(140, 140, 140)</p>
         <p style="background-color: rgb(200, 200, 200);"> this is rgb(200, 200, 200)</p>
+<hr>
+<h2 style="color: darkblue;">RGBA COLOR VALUES</h2>
+    <P>
+        RGBA color values are an extension of RGB color values with an Alpha channel - which specifies the opacity for a color.
+        An RGBA color value is specified with:<br>
+        rgba(red, green, blue, alpha)<br>
+        The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
+        <br>
+        EXAMPLES<br>
+        <p style="background-color: rgba(255, 99, 71, 0);">THIS IS rgba(255, 99, 71, 0)</p>
+        <p style="background-color: rgba(255, 99, 71, 0.4);">THIS IS rgba(255, 99, 71, 0.4)</p>
+        <P style="background-color: rgba(255, 99, 71, 0.8);">THIS IS rgba(255, 99, 71, 0.8)</P>
+        <P style="background-color: rgba(255, 99, 71, 1);">THIS IS rgba(255, 99, 71, 1)</P>
+    </P>
+<H2 style="color: darkblue;">HTML HEX COLORS</H2>
+    <p>
+        A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) 
+        hexadecimal integers specify the components of the color.
+    </p>
+    <p>
+        In HTML, a color can be specified using a hexadecimal value in the form:
+        <br><br>#rrggbb
+        <br><br>
+        Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+        <br>
+        <br>For example, #ff0000 is displayed as red, because red is set to its highest value (ff), and the other two (green and blue) are set to 00.
+        <br>Another example, #00ff00 is displayed as green, because green is set to its highest value (ff), and the other two (red and blue) are set to 00.
+        <br>To display black, set all color parameters to 00, like this: #000000.
+        <br>To display white, set all color parameters to ff, like this: #ffffff.
+    </p>
+    <h3>EXAMPLES</h3>
+        <p style="background-color: #ff0000;">THIS IS #ff0000</p>
+        <P style="background-color: #0000ff;">THIS IS #0000ff</P>
+        <P style="background-color: #ee82ee;">THIS IS #ee82ee</P>
+
+    <H3>SHADES OF GREY    </H3>
+        <p>Shades of gray are often defined using equal values for all three parameters:</p>
+        <p>EXAMPLES</p>
+        <p style="background-color: #404040;">THIS IS #404040</p>
+        <p style="background-color: #bebebe;">THIS IS #bebebe</p>
+        <p style="background-color: #dcdcdc;">THIS IS #dcdcdc</p>
+<br>
+<hr>
+<h2 style="color: darkblue;">HTML HSL AND HSLA COLORS</h2>
+    <p>- HSL stands for hue, saturation, and lightness.<br>
+        <br>HSLA color values are an extension of HSL with an Alpha channel (opacity).        
+    </p>
+    <h3 style="color: blueviolet;">HSL Color Values</h3>
+        <p>
+            <b>     hsl(hue, saturation, lightness)</b>
+        </p>
+        <p>
+             - Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+            <br> - Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
+            <br> - Lightness is also a percentage value. 0% is black, and 100% is white.
+        </p>
+        <p style="background-color: hsl(147, 50%, 47%);">THIS IS hsl(147, 50%, 47%)</p>
+        <p style="background-color: hsl(248, 53%, 58%);"> THIS IS hsl(248, 53%, 58%)</p>
+        <p style="background-color: hsl(39, 100%, 50%);">THIS IS hsl(39, 100%, 50%)</p>
+    <br>
+    <h3 style="color: blueviolet;">SATURATION</h3>
+        <P><b>  Saturation can be described as the intensity of a color.</b>
+            <br>    100% is pure color, no shades of gray.                 
+            <br>    50% is 50% gray, but you can still see the color.           
+            <br>    0% is completely gray; you can no longer see the color.
+        </P>
+        <p><B>EXAMPLES</B></p>
+        <P style="background-color: hsl(0, 100%, 50%);">THIS IS hsl(0, 100%, 50%)</P>
+        <P style="background-color: hsl(0, 80%, 50%);">THIS IS hsl(0, 80%, 50%)</P>
+        <p style="background-color: hsl(0, 60%, 50%);">THIS IS hsl(0, 60%, 50%)</p>
+        <P style="background-color: hsl(0, 0%, 50%);">THIS IS hsl(0, 0%, 50%)</P>
+    <BR>
+<hr>
+<h2 style="color: darkblue;">LIGHTNESS</h2>
+    <p>The lightness of a color can be described as how much light you want to give the color, 
+    where 0% means no light (black), 50% means 50% light (neither dark nor light), and 100% means 
+    full lightness (white).</p>
+    <br>
+    <h3>EXAMPLES</h3>
+        <p style="background-color: hsl(0, 100%, 0%); color: white;">THIS IS hsl(0, 100%, 0%)</p>
+        <P style="background-color: hsl(0, 100%, 25%); color: white;">THIS IS hsl(0, 100%, 25%)</P>
+        <P style="background-color: hsl(0, 100%, 50%);">THIS IS hsl(0, 100%, 50%)</P>
+        <P style="background-color: hsl(0, 100%, 75%);">THIS IS hsl(0, 100%, 75%)</P>
+        <P style="background-color: hsl(0, 100%, 90%);">THIS IS hsl(0, 100%, 90%)</P>
+        <p style="background-color: hsl(0, 100%, 100%);">THIS IS hsl(0, 100%, 100%)</p>
+    <BR>
+<HR>
+<h2 style="color: darkblue;">SHADES OF GREY</h2>
+    <p>
+        Shades of gray are often defined by setting the hue and saturation to 0, and adjusting 
+        the lightness from 0% to 100% to get darker/lighter shades:
+    </p>
+    <h3>EXAMPLES</h3>
+        <p style="background-color: hsl(0, 0%, 20%);">THIS IS hsl(0, 0%, 20%)</p>
+        <P style="background-color: hsl(0, 0%, 40%);">THIS IS hsl(0, 0%, 40%)</P>
+        <P style="background-color: hsl(0, 0%, 70%);">THIS IS hsl(0, 0%, 70%)</P>
+    <BR>
+<HR>
+<H2 style="color: darkblue;">HSLA Color Values</H2>
+    <P>HSLA color values are an extension of HSL color values, with an Alpha channel - which specifies 
+        the opacity for a color.
+        <BR><U>An HSLA color value is specified with:</U>
+        <BR> -- hsla(hue, saturation, lightness, alpha)
+        <BR> --The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
+    </P>
+    <h3>EXAMPLES</h3>
+        <P style="background-color: hsla(9, 100%, 64%, 0.2);">THIS IS hsla(9, 100%, 64%, 0.2)</P>
+        <P style="background-color: hsla(9, 100%, 64%, 0.4);"> THIS IS hsla(9, 100%, 64%, 0.4)</P>
+        <P style="background-color: hsla(9, 100%, 64%, 0.8);">THIS IS hsla(9, 100%, 64%, 0.8)</P>
+        <P style="background-color: hsla(9, 100%, 64%, 1);">THIS IS hsla(9, 100%, 64%, 1)</P>
+        
 
 
-    
+
+
 </body>
 </html>
