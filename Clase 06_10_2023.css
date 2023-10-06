@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: burlywood;
+    color: #fff;
+    padding: 20px 20px 20px 20 px;
+
+}
+
+.header h1{
+    margin: 0;
+}
+
+.content {
+    max-width: ;
+    margin: 0;
+    padding: 20px 20px 20px 20px; 
+
+}
+
+.main {
+    flex: 4;
+    
+}
+
+.section {
+
+}
+
+.section h2 {
+
+}
+
+.menu {
+    flex: 1;
+    background: #aff333;
+    padding: 10px;
+}
