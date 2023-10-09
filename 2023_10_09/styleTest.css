@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #add8e6;
+    color: #00008b;
+
+}
+
+.header {
+    background-color: brown;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin: 2cm;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+
+.content {
+    max-width: 200px;
+    margin: 2cm;
+    padding: 20px 20px 20px 20px; 
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+
+
+}
