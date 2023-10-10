@@ -1,0 +1,21 @@
+table, th, td {
+    border: 1px lightgrey;
+    
+    border-radius: 10px;
+    
+  }
+th, td {
+   
+    border: 1px lightgrey;
+    border-style: outset;
+    text-align: center;
+    padding: 10px;
+    border-spacing: 10px;
+  }
+
+tr:nth-child(even) {
+    background-color: #96D4D4;
+}
+td:nth-child(even) {
+    background-color: #D6EEEE;
+  }
