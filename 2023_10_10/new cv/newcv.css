@@ -1,0 +1,51 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #000044;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    padding: 20px 20px 20px 20px;    
+}
+.header #profilePic  {
+    float:right;
+      
+}
+.content {
+    margin-right: 2cm;
+    margin-left: 2cm;    
+    padding: 20px 20px 20px 20px;
+    background-color: #444444;
+    color: #ffffff;
+    text-align:center;
+}
+#contentTable {    
+    width: 80%;
+    text-align: center; 
+    vertical-align: middle;        
+}
+
+button {    
+    border-style:hidden;
+    background-color: #444444;
+    text-align: center;
+    color: #ffffff;
+    font-size: large;
+}
+button:hover {
+    background-color: #D6EEEE;
+    color: black;
+}
+.contactInfo{
+    display: none;
+}
+.skills{
+    display: none;
+}
+.experience{
+    display: none;
+}
